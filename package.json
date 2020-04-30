@@ -1,0 +1,22 @@
+{
+    "name": "exercises",
+    "version": "0.0.0",
+    "description": "Practical exercises to train algorithms and data structures",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [
+        "algorithm",
+        "data",
+        "structure"
+    ],
+    "author": "Oleksandr Ryzhyk",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^25.2.1",
+        "@types/node": "^13.13.4",
+        "jest": "^25.5.2",
+        "ts-jest": "^25.4.0",
+        "typescript": "^3.8.3"
+    }
+}
