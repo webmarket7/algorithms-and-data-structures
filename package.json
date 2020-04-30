@@ -3,7 +3,8 @@
     "version": "0.0.0",
     "description": "Practical exercises to train algorithms and data structures",
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "test:coverage": "jest --coverage"
     },
     "keywords": [
         "algorithm",
