@@ -302,6 +302,7 @@ describe('SinglyLinkedList', () => {
 
         it('should return false if index is negative', () => {
             const list = new SinglyLinkedList();
+
             list.push(1);
 
             expect(list.set(-1, 2)).toEqual(false);
@@ -309,6 +310,7 @@ describe('SinglyLinkedList', () => {
 
         it('should return true and update value of node found at specific index', () => {
             const list = new SinglyLinkedList();
+
             list.push(1);
 
             expect(list.set(0, 2)).toEqual(true);
